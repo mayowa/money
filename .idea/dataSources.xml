@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="money" uuid="7b826461-9cfb-4d3a-9768-d7c0252d8040">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/data/money.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="foreign_keys" value="true" />
+        <property name="journal_mode" value="WAL" />
+        <property name="shared_cache" value="true" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
